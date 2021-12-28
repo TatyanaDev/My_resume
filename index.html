@@ -3,33 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/fonts.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Tatyana_dev_resume</title>
   </head>
   <body>
     <section>
-      <section>
-        <div>
+      <section class="container">
+        <aside class="aside">
+          <img class="photo" src="./assets/image/photo.jpg" alt="photo" />
+          <div class="wrapper_content_aside">
+            <article class="contacts_container">
+              <h3 class="aside_headers">Contacts</h3>
+              <p>
+                <span class="contacts_section_type">C:</span>
+                <a class="phone" href="tel:+80999030740">+8 099 903 07 40</a>
+              </p>
+              <p>
+                <span class="contacts_section_type">E:</span>
+                <a class="email" href="mailto:kot.kate.2020@gmail.com"
+                  >kot.kate.2020@gmail.com</a
+                >
+              </p>
+            </article>
+            <article class="tech_skills_container">
+              <h3 class="aside_headers">Tech Skills</h3>
+              <ul class="skills_containers">
+                <li>Linux</li>
+                <li>Git</li>
+                <li>Bitbucket</li>
+                <li>HTML 5 +</li>
+                <li>CSS3 (SCSS, SASS)</li>
+                <li>JavaScript ES5+</li>
+                <li>React.JS</li>
+                <li>Node.JS</li>
+                <li>Express.JS</li>
+                <li>PostgreSQL</li>
+                <li>MongoDB</li>
+                <li>Docker</li>
+                <li>Gulp</li>
+              </ul>
+            </article>
+            <article>
+              <h3 class="aside_headers">Soft Skills</h3>
+              <ul class="skills_containers">
+                <li>Scrum</li>
+                <li>Agile</li>
+                <li>GTD</li>
+                <li>Teamwork</li>
+              </ul>
+            </article>
+          </div>
+        </aside>
+        <div class="main_content_container">
           <article>
-            <h2>Junior JavaScript developer</h2>
-            <h1>Tatyana Karpenko</h1>
-            <p>
+            <h2 class="profession">Junior JavaScript developer</h2>
+            <h1 class="name">Tatyana Karpenko</h1>
+            <p class="about_me">
               Motivated to constantly develop personal skills and grow
               professionally. Skill to work in team. Willing to sacrifice
               personal time for the success of the company. I have an
               opportunity short-term business trips if necessary.
             </p>
           </article>
-          <article>
-            <h3>Projects</h3>
-            <ol>
+          <article class="projects_wrapper">
+            <h3 class="projects">Projects</h3>
+            <ol class="projects_container">
               <li>
                 <a
                   href="https://tatyana404.github.io/Promotional_page_Mercedes/"
                   target="_blank"
                   >https://tatyana404.github.io/Promotional_page_Mercedes/</a
                 >
-                <span>.............</span>
-                <span>[ HTML5, CSS3, JavaScript ]</span>
+                <span></span>
+                <span>[</span>
+                <span>HTML5, CSS3, JS</span>
+                <span>]</span>
               </li>
               <li>
                 <a
@@ -37,8 +87,10 @@
                   target="_blank"
                   >https://tatyana404.github.io/Flowers%20shop/</a
                 >
-                <span>................................</span>
-                <span>[ HTML5, CSS3, JavaScript ]</span>
+                <span></span>
+                <span>[</span>
+                <span>HTML5, CSS3, JS</span>
+                <span>]</span>
               </li>
               <li>
                 <a
@@ -46,8 +98,10 @@
                   target="_blank"
                   >https://tatyana404.github.io/Bella%20Olonje/</a
                 >
-                <span>.................................</span>
-                <span>[ HTML5, CSS3 ]</span>
+                <span></span>
+                <span>[</span>
+                <span>HTML5, CSS3</span>
+                <span>]</span>
               </li>
               <li>
                 <a
@@ -55,16 +109,22 @@
                   target="_blank"
                   >https://tatyana404.github.io/Willberries/</a
                 >
-                <span>..........................................</span>
-                <span>[ HTML5, CSS3,JavaScript ]</span>
+                <span></span>
+                <span>[</span>
+                <span>HTML5, CSS3, JS</span>
+                <span>]</span>
               </li>
             </ol>
           </article>
-          <article>
-            <h3>Work Experience</h3>
-            <h4>JavaScript developer ReZet</h4>
-            <p>September 2021 - up to now | Zaporizhzhia</p>
-            <ul>
+          <article class="work_experience_container">
+            <h3 class="main_content_titles">Work Experience</h3>
+            <h4 class="place_of_work ">
+              JavaScript developer <span>ReZet</span>
+            </h4>
+            <p class="experience_period">
+              September 2021 - up to now <span>|</span> Zaporizhzhia
+            </p>
+            <ul class="duties_container">
               <li>
                 Working with React, Redux (Toolkit, Saga, Thunk), Node.JS,
                 Express.JS
@@ -73,18 +133,22 @@
               <li>Working with PostgreSQL, MongoDB</li>
               <li>Working with Git, Bitbucket</li>
             </ul>
-            <h4>Shop assistant ООО "ATB-market"</h4>
-            <p>May 2019 - August 2020 | Zaporizhzhia</p>
-            <ul>
+            <h4 class="place_of_work ">
+              Shop assistant <span>ООО "ATB-market"</span>
+            </h4>
+            <p class="experience_period">
+              May 2019 - August 2020 <span>|</span> Zaporizhzhia
+            </p>
+            <ul class="duties_container">
               <li>Compliance with cash discipline.</li>
               <li>Display of goods.</li>
               <li>Advising buyers.</li>
             </ul>
-            <h4>Nurse KU "ZOPTKD" ZOS</h4>
-            <p>
-              August 2017 - December 2018 | Zaporizhzhia
+            <h4 class="place_of_work ">Nurse <span>KU "ZOPTKD" ZOS</span></h4>
+            <p class="experience_period">
+              August 2017 - December 2018 <span>|</span> Zaporizhzhia
             </p>
-            <ul>
+            <ul class="duties_container">
               <li>
                 Timely fulfill the appointments of the attending physician.
               </li>
@@ -97,59 +161,16 @@
             </ul>
           </article>
           <article>
-            <h3>Education</h3>
-            <h4>
+            <h3 class="main_content_titles">Education</h3>
+            <h4 class="place_of_study">
               KU "Zaporozhye Basic Medical College" ZOS
             </h4>
-            <h2>Medicine</h2>
-            <p>
-              September 2014 - June 2017 | Zaporizhzhia
+            <h2 class="speciality">Medicine</h2>
+            <p class="experience_period">
+              September 2014 - June 2017 <span>|</span> Zaporizhzhia
             </p>
           </article>
         </div>
-        <aside>
-          <img src="./image/photo.jpg" alt="photo" />
-          <article>
-            <h3>Contacts</h3>
-            <p>
-              <span>C:</span>
-              <a href="tel:+80999030740">+8 099 903 07 40</a>
-            </p>
-            <p>
-              <span>E:</span>
-              <a href="mailto:kot.kate.2020@gmail.com"
-                >kot.kate.2020@gmail.com</a
-              >
-            </p>
-          </article>
-          <article>
-            <h3>Tech Skills</h3>
-            <ul>
-              <li>Linux</li>
-              <li>Git</li>
-              <li>Bitbucket</li>
-              <li>HTML 5 +</li>
-              <li>CSS3 (SCSS, SASS)</li>
-              <li>JavaScript ES5+</li>
-              <li>React.JS</li>
-              <li>Node.JS</li>
-              <li>Express.JS</li>
-              <li>PostgreSQL</li>
-              <li>MongoDB</li>
-              <li>Docker</li>
-              <li>Gulp</li>
-            </ul>
-          </article>
-          <article>
-            <h3>Soft Skills</h3>
-            <ul>
-              <li>Scrum</li>
-              <li>Agile</li>
-              <li>GTD</li>
-              <li>Teamwork</li>
-            </ul>
-          </article>
-        </aside>
       </section>
     </section>
   </body>
