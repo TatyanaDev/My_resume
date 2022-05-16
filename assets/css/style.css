@@ -129,19 +129,19 @@
 .projects_container > li > span:first-of-type {
   border-bottom: 1px dashed #a8a8a8;
   display: inline-block;
-  min-width: 48px;
+  min-width: 50px;
 }
 
 .projects_container > li:nth-child(2) > span:first-of-type {
-  min-width: 136px;
+  min-width: 126px;
 }
 
 .projects_container > li:nth-child(3) > span:first-of-type {
-  min-width: 145px;
+  min-width: 128px;
 }
 
 .projects_container > li:nth-child(4) > span:first-of-type {
-  min-width: 179px;
+  min-width: 140px;
 }
 
 .projects_container > li > span:nth-child(4),
